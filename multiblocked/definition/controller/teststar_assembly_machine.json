@@ -1,0 +1,169 @@
+{
+  "catalyst": "{id:\"minecraft:stick\",Count:1b}",
+  "consumeCatalyst": false,
+  "location": "teststar:assembly_machine",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:control_machine",
+    "type": "imodel"
+  },
+  "formedRenderer": {
+    "modelLocation": "multiblocked:control_machine",
+    "type": "imodel"
+  },
+  "properties": {
+    "isOpaque": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "harvestLevel": 1,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64
+  },
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AAAA",
+        "ABBA",
+        "ABBA",
+        "AAAA"
+      ],
+      [
+        "AAAA",
+        "BCCB",
+        "BCCB",
+        "ABBA"
+      ],
+      [
+        "AAAA",
+        "BCCB",
+        "BCCB",
+        "ABBA"
+      ],
+      [
+        "AAAA",
+        "BCCB",
+        "BCC@",
+        "ABBA"
+      ],
+      [
+        "AAAA",
+        "BCCB",
+        "BCCB",
+        "ABBA"
+      ],
+      [
+        "AAAA",
+        "BCCB",
+        "BCCB",
+        "ABBA"
+      ],
+      [
+        "AAAA",
+        "ABBA",
+        "AEDA",
+        "AAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "minecraft:iron_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "teststar:assembly_machine",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:sheetmetal_iron"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "immersiveengineering:heavy_engineering"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "location": "teststar:item_modular",
+        "type": "component"
+      },
+      "E": {
+        "location": "teststar:energy_modular",
+        "type": "component"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ]
+    }
+  },
+  "recipeMap": "ass"
+}

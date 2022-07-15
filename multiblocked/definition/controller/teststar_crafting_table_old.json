@@ -1,0 +1,149 @@
+{
+  "consumeCatalyst": false,
+  "location": "teststar:crafting_table_old",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 22,
+        "y": 29,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 22,
+        "y": 48,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 22,
+        "y": 67,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 41,
+        "y": 29,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 41,
+        "y": 48,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 41,
+        "y": 67,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 60,
+        "y": 29,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 60,
+        "y": 48,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 0,
+        "x": 60,
+        "y": 67,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 120,
+        "y": 49,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "minecraft:crafting_table",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "thermal:tinker_bench",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "properties": {
+    "isOpaque": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "harvestLevel": 1,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64
+  },
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "teststar:crafting_table_old",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "c_t_o_recipes"
+}

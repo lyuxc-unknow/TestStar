@@ -1,0 +1,8 @@
+
+#Mod pack sittings
+[Config]
+	#Disable unlimited water sources
+	#Range: 0 ~ 2
+	"this is a name" = 0
+	"hard mode" = false
+

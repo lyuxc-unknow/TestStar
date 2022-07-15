@@ -1,0 +1,15 @@
+{
+    "block.teststar.assembly_machine": "Assemble Machine Control",
+    "block.teststar.item_modular": "Item Modular",
+    "block.teststar.energy_modular": "Energy Modular",
+    "assembly_machine.name": "Assemble Machine",
+    "teststar.assembly_machine.description": "Assemble some materials",
+    "block.teststar.magic_furnace": "Purpur Furnace",
+    "magic_furnace.name": "Purpur Furnace",
+    "teststar.magic_furnace.description": "use purpur dust to craft some item",
+    "multiblocked.recupe_map.magic_furnace_recipes_map": "Purpur Craft",
+    "block.teststar.air_collector": "Water Collector",
+    "air_collector.name": "Water Collector",
+    "teststar.air_collector.description": "collect water vapor from the air",
+    "multiblocked.recupe_map.water_collector_recipes_map": "water vapor collection"
+}

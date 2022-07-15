@@ -1,0 +1,29 @@
+{
+    "block.teststar.assembly_machine": "组装机控制器",
+    "block.teststar.item_modular": "物品模块",
+    "block.teststar.energy_modular": "能源模块",
+    "block.teststar.magic_furnace": "简易紫珀炉",
+    "block.teststar.air_collector": "水气收集器",
+    "block.teststar.simple_washing_machine": "简易筛选机控制器",
+    "block.teststar.simple_substance_converter": "简易基础物资回收转换机",
+
+    "assembly_machine.name": "组装机",
+    "teststar.assembly_machine.description": "用于组装一些框架或者其他的材料",
+    "multiblocked.recupe_map.ass": "组装合成",
+
+    "magic_furnace.name": "简易紫珀炉",
+    "teststar.magic_furnace.description": "使用紫珀粉简易的冶炼基础材料",
+    "multiblocked.recupe_map.magic_furnace_recipes_map": "紫珀冶炼",
+
+    "air_collector.name": "水气收集器",
+    "teststar.air_collector.description": "收集空气中少有的水蒸气",
+    "multiblocked.recupe_map.water_collector_recipes_map": "水蒸气收集",
+
+    "simple_washing_machine.name": "简易筛选机",
+    "teststar.simple_washing_machine.description": "通过流水筛选出其中的矿物和杂质",
+    "multiblocked.recupe_map.swm_recipes": "简易筛选",
+
+    "simple_substance_converter.name": "简易基础物资回收转换机",
+    "teststar.simple_substance_converter.description": "转换一些可在正常环境中发生转换的物质,并收集回收物",
+    "multiblocked.recupe_map.simple_substance_converter": "物质回收加工并转换"
+}

@@ -1,0 +1,646 @@
+{
+	id: "48E0F2F65BDD6197"
+	group: ""
+	order_index: 0
+	filename: "48E0F2F65BDD6197"
+	title: "始章节：资源获取"
+	icon: {
+		id: "kubejs:purpur_hummer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "0FAA813D17281B24"
+			tasks: [{
+				id: "50894AEA589E5A2D"
+				type: "item"
+				item: "minecraft:purpur_block"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["0FAA813D17281B24"]
+			id: "7107BB24FE12CD74"
+			tasks: [{
+				id: "523F3A8B1042D382"
+				type: "item"
+				item: "kubejs:purpur_stack"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["7107BB24FE12CD74"]
+			id: "286A4D8D0E1FAD8A"
+			tasks: [{
+				id: "6A18B0D8F430FFB0"
+				type: "item"
+				item: {
+					id: "kubejs:purpur_hummer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["286A4D8D0E1FAD8A"]
+			id: "1928EE348506531A"
+			tasks: [{
+				id: "56464F25D617EEB5"
+				type: "item"
+				item: "kubejs:purpur_dust"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["1928EE348506531A"]
+			id: "11FCA45E22DA263E"
+			tasks: [{
+				id: "6C707469CBDBA369"
+				type: "item"
+				item: "kubejs:purpur_dust_block"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["11FCA45E22DA263E"]
+			id: "242F6A85B2471DB8"
+			tasks: [{
+				id: "1C79B48241A39E7D"
+				type: "item"
+				item: "teststar:magic_furnace"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["242F6A85B2471DB8"]
+			id: "65FBBE82EB6B7B6B"
+			tasks: [{
+				id: "4C07D4E0CC6F2530"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [{
+				id: "62E15B0E6A83EF3E"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["65FBBE82EB6B7B6B"]
+			id: "37E058B27F8297B7"
+			tasks: [{
+				id: "3BE15A183F070589"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["37E058B27F8297B7"]
+			id: "749B716E8770BD4F"
+			tasks: [{
+				id: "5D4EE0C4EA13B4E1"
+				type: "item"
+				item: "minecraft:smooth_stone"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["7107BB24FE12CD74"]
+			id: "2E709EA25CB97712"
+			tasks: [{
+				id: "4624C624D72C16C6"
+				type: "item"
+				item: "kubejs:sticks_with_vegetation"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["2E709EA25CB97712"]
+			id: "0E363D4FC53FE29A"
+			tasks: [{
+				id: "08E28CC7397444AC"
+				type: "item"
+				item: "kubejs:sticks_with_vegetation"
+			}]
+			rewards: [{
+				id: "678078DA2241866E"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["0E363D4FC53FE29A"]
+			id: "454B8DBCD0706F17"
+			tasks: [{
+				id: "1CF820E57DE7209A"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["454B8DBCD0706F17"]
+			id: "1DE0AD7CE3069FE1"
+			tasks: [{
+				id: "7CCBA00042086596"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["749B716E8770BD4F"]
+			id: "2205A016D16B3FB9"
+			tasks: [{
+				id: "37605808B70D76F8"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "5C67DB2C1CBAFA6C"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 32
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["37E058B27F8297B7"]
+			id: "7DC064B597CB89D1"
+			tasks: [{
+				id: "3273A0CE149C1705"
+				type: "item"
+				item: "kubejs:stone_dust"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: [
+				"1DE0AD7CE3069FE1"
+				"7DC064B597CB89D1"
+			]
+			id: "2BF880F0A193F5C4"
+			tasks: [{
+				id: "07218CF5E9E4E60C"
+				type: "item"
+				item: "teststar:air_collector"
+			}]
+			rewards: [
+				{
+					id: "09C0FD9EAE413697"
+					type: "item"
+					item: "cyclic:hopper_fluid"
+				}
+				{
+					id: "3E07707105790E2B"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			title: "搭建结构：简易筛选机"
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["191D51F532C428EB"]
+			id: "0A00A64010852534"
+			tasks: [{
+				id: "78C254CC4F5CC0EA"
+				type: "questsadditions:structure"
+				name: "simple_washing_machine"
+				hasCustomPicture: false
+			}]
+			rewards: [
+				{
+					id: "5DDFBBA06A226A8D"
+					type: "item"
+					item: "cyclic:hopper_fluid"
+					count: 12
+				}
+				{
+					id: "4D95E70723DF412C"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "简易筛选机"
+			icon: "teststar:simple_washing_machine"
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["2BF880F0A193F5C4"]
+			id: "191D51F532C428EB"
+			tasks: [
+				{
+					id: "41494D856BE2E217"
+					type: "item"
+					item: "minecraft:purpur_block"
+					count: 12L
+				}
+				{
+					id: "04D66D0374D0DBD9"
+					type: "item"
+					item: "kubejs:purpur_dust_block"
+					count: 13L
+				}
+				{
+					id: "00F2B6E468C64F7B"
+					type: "item"
+					item: "teststar:simple_washing_machine"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["191D51F532C428EB"]
+			id: "30941B656476EE41"
+			tasks: [{
+				id: "25E7D588664E3F52"
+				type: "item"
+				item: "create:crushed_iron_ore"
+				count: 12L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["191D51F532C428EB"]
+			id: "57FC785EB00EDF65"
+			tasks: [{
+				id: "1BD94D38AF5885AC"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["191D51F532C428EB"]
+			id: "50D091A53221C958"
+			tasks: [{
+				id: "0CC756C7F9CF57C6"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["50D091A53221C958"]
+			id: "197DFA3B1DB8BF98"
+			tasks: [{
+				id: "286B1C4A141BF608"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["7DC064B597CB89D1"]
+			id: "1A59FEDB5F8E231B"
+			tasks: [{
+				id: "7254A054DC3BD868"
+				type: "item"
+				item: "kubejs:stone_dust_block"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["1A59FEDB5F8E231B"]
+			id: "5068A442A92FF620"
+			tasks: [{
+				id: "05DA293035B6ACD9"
+				type: "item"
+				item: "kubejs:stone_dust_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["57FC785EB00EDF65"]
+			id: "4BF7EF4D34EB60DB"
+			tasks: [{
+				id: "524B06A0FC475FB8"
+				type: "item"
+				item: "minecraft:sandstone"
+			}]
+		}
+		{
+			title: "合金窑"
+			icon: "immersiveengineering:alloybrick"
+			x: 5.0d
+			y: 6.5d
+			dependencies: [
+				"5068A442A92FF620"
+				"4BF7EF4D34EB60DB"
+			]
+			id: "3369F7FF86924FD8"
+			tasks: [
+				{
+					id: "055ADBF972EE6353"
+					type: "item"
+					item: "immersiveengineering:alloybrick"
+					count: 8L
+				}
+				{
+					id: "365957DB02D83A58"
+					type: "questsadditions:structure"
+					title: "搭建结构：合金窑"
+					name: "alloy_kiln"
+					hasCustomPicture: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			id: "63FEBB9BF46F76EF"
+			tasks: [{
+				id: "56AD7D3D5756DCF4"
+				type: "item"
+				item: "minecraft:warped_roots"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["63FEBB9BF46F76EF"]
+			id: "45FE7B528C2882CC"
+			tasks: [{
+				id: "37AFDCA0BBDA0609"
+				type: "item"
+				item: "kubejs:plant_fibres"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["30941B656476EE41"]
+			id: "5419593C01C1562D"
+			tasks: [{
+				id: "7A7366E356BE709E"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "2A4D3B180E9C780F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["45FE7B528C2882CC"]
+			id: "528EBD23B7A9105B"
+			tasks: [{
+				id: "2EDDEBEC305BF07B"
+				type: "item"
+				item: "kubejs:hemp_rope"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: [
+				"5419593C01C1562D"
+				"528EBD23B7A9105B"
+			]
+			id: "0AEE9E136790C33A"
+			tasks: [{
+				id: "075591BB54CB806A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["57FC785EB00EDF65"]
+			id: "63F9C77E3FEAD101"
+			tasks: [{
+				id: "5B36A6945F7C31B3"
+				type: "item"
+				item: "ae2:silicon"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["63F9C77E3FEAD101"]
+			id: "79692EE30E8D2018"
+			tasks: [{
+				id: "58577F80DAD41AE0"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			dependencies: ["79692EE30E8D2018"]
+			id: "0EEC303894B13F73"
+			tasks: [{
+				id: "098A1D6B48B12F55"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			dependencies: ["0EEC303894B13F73"]
+			id: "3F4B80CB8C4C60CB"
+			tasks: [{
+				id: "637BBEEEB22F39EB"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			dependencies: ["63F9C77E3FEAD101"]
+			id: "775C8A6BFEA119E4"
+			tasks: [{
+				id: "52EDC2935E98F307"
+				type: "item"
+				item: "teststar:simple_substance_converter"
+			}]
+			rewards: [{
+				id: "0BB9EEF00F3EA9D8"
+				type: "item"
+				item: "kubejs:mixed_fuel"
+				count: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			dependencies: ["775C8A6BFEA119E4"]
+			id: "7CE605B88052936A"
+			tasks: [{
+				id: "469C49DA64360933"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: 5.0d
+			y: 9.5d
+			dependencies: ["7CE605B88052936A"]
+			id: "64B503F28ECA579B"
+			tasks: [{
+				id: "193981A70938BAD1"
+				type: "item"
+				title: "任意原木"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			title: "任意神秘花"
+			icon: "botania:white_mystical_flower"
+			x: 3.0d
+			y: 9.5d
+			dependencies: ["775C8A6BFEA119E4"]
+			id: "023EDDBA9245EF50"
+			tasks: [{
+				id: "09DDA1BF2182174D"
+				type: "item"
+				title: "Any #botania:mystical_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			dependencies: ["023EDDBA9245EF50"]
+			id: "1675336FADF54234"
+			tasks: [{
+				id: "038B6FE3D8FBE202"
+				type: "item"
+				item: "botania:white_petal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			dependencies: ["1675336FADF54234"]
+			id: "588040D5D38E6529"
+			tasks: [{
+				id: "0C2F51455F2C3C1A"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			dependencies: ["588040D5D38E6529"]
+			id: "17775A221FC2459D"
+			tasks: [{
+				id: "57299835230131BD"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			dependencies: ["588040D5D38E6529"]
+			id: "6DCF0F2FE1697F55"
+			tasks: [{
+				id: "7BAF28401D8B8CDB"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			dependencies: ["6DCF0F2FE1697F55"]
+			id: "351EFCB31DF991A2"
+			tasks: [{
+				id: "6C2AA6FDD1B9FB4A"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			dependencies: ["17775A221FC2459D"]
+			id: "3EBAB233B1324B9E"
+			tasks: [{
+				id: "555AEA547E5576E1"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.0d
+			dependencies: ["3EBAB233B1324B9E"]
+			id: "62E07FFD6D00091C"
+			tasks: [{
+				id: "422645EBAFD6F78F"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+	]
+}
