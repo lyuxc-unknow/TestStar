@@ -6,6 +6,8 @@
     "block.teststar.air_collector": "水气收集器",
     "block.teststar.simple_washing_machine": "简易筛选机控制器",
     "block.teststar.simple_substance_converter": "简易基础物资回收转换机",
+    "block.teststar.melting_crucible": "紫珀坩埚",
+    "block.teststar.fan": "综合鼓风机",
 
     "assembly_machine.name": "组装机",
     "teststar.assembly_machine.description": "用于组装一些框架或者其他的材料",
@@ -25,5 +27,9 @@
 
     "simple_substance_converter.name": "简易基础物资回收转换机",
     "teststar.simple_substance_converter.description": "转换一些可在正常环境中发生转换的物质,并收集回收物",
-    "multiblocked.recupe_map.simple_substance_converter": "物质回收加工并转换"
+    "multiblocked.recupe_map.simple_substance_converter": "物质回收加工并转换",
+
+    "fan.name": "综合鼓风机",
+    "teststar.fan.description": "通过石粉块衍变风化物品",
+    "multiblocked.recupe_map.fans": "批量综合吹风"
 }

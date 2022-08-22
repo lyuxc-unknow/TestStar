@@ -112,3 +112,42 @@ craftingTable.addShapeless("hemp_rope", <item:kubejs:hemp_rope>,[
 ]);
 
 <item:kubejs:mixed_fuel>.burnTime = 2400;
+
+removeAndShaped(<item:minecraft:bucket>,[
+    [air,<item:botania:mana_string>,air],
+    [<tag:items:forge:plates/iron>,air,<tag:items:forge:plates/iron>],
+    [air,<tag:items:forge:plates/iron>,air]
+]);
+
+blastFurnace.remove(<item:minecraft:blaze_powder>);
+
+removeAndShaped(<item:teststar:melting_crucible>,[
+    [<item:kubejs:purpur_dust_block>,air,<item:kubejs:purpur_dust_block>],
+    [<item:kubejs:purpur_dust_block>,<item:minecraft:blaze_powder>,<item:kubejs:purpur_dust_block>],
+    [<item:kubejs:purpur_dust_block>,<item:kubejs:purpur_dust_block>,<item:kubejs:purpur_dust_block>]
+]);
+
+removeAndShaped(<item:minecraft:chest>,[
+    [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>,<item:minecraft:stone_button>,<tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>]
+]);
+
+craftingTable.removeByName("powah:crafting/dielectric_paste");
+craftingTable.removeByName("powah:crafting/dielectric_paste_2");
+
+craftingTable.removeByName("immersiveengineering:crafting/cokebrick");
+craftingTable.addShaped("cokebrick",<item:immersiveengineering:cokebrick> * 3,[
+    [<item:kubejs:stone_dust_ingot>,<tag:items:forge:sandstone>,<item:kubejs:stone_dust_ingot>],
+    [<item:powah:dielectric_paste>,<item:minecraft:bricks>,<item:powah:dielectric_paste>],
+    [<item:kubejs:stone_dust_ingot>,<tag:items:forge:sandstone>,<item:kubejs:stone_dust_ingot>]
+]);
+
+craftingTable.removeByName("immersiveengineering:crafting/blastbrick");
+craftingTable.addShaped("blastbrick",<item:immersiveengineering:blastbrick> * 3,[
+    [<tag:items:forge:sandstone>,<item:immersiveengineering:coal_coke>,<tag:items:forge:sandstone>],
+    [<tag:items:forge:sandstone>,<item:immersiveengineering:cokebrick>,<tag:items:forge:sandstone>],
+    [<tag:items:forge:sandstone>,<item:immersiveengineering:coal_coke>,<tag:items:forge:sandstone>]
+]);
+
+<recipetype:immersiveengineering:blast_furnace_fuel>.addFuel("mix_fuel",<item:kubejs:mixed_fuel>,24000);

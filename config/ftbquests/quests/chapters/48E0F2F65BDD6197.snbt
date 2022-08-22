@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "48E0F2F65BDD6197"
-	title: "始章节：资源获取"
+	title: "资源获取"
 	icon: {
 		id: "kubejs:purpur_hummer"
 		Count: 1b
@@ -23,6 +23,11 @@
 				type: "item"
 				item: "minecraft:purpur_block"
 			}]
+			rewards: [{
+				id: "5A88573679701E79"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: -1.0d
@@ -33,6 +38,11 @@
 				id: "523F3A8B1042D382"
 				type: "item"
 				item: "kubejs:purpur_stack"
+			}]
+			rewards: [{
+				id: "263B53B4CE753093"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -51,6 +61,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "61F1E6635322F680"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 2.0d
@@ -62,16 +77,27 @@
 				type: "item"
 				item: "kubejs:purpur_dust"
 			}]
+			rewards: [{
+				id: "04969B6B0DB78F10"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 3.5d
 			y: -1.0d
+			description: ["带热量的神奇方块"]
 			dependencies: ["1928EE348506531A"]
 			id: "11FCA45E22DA263E"
 			tasks: [{
 				id: "6C707469CBDBA369"
 				type: "item"
 				item: "kubejs:purpur_dust_block"
+			}]
+			rewards: [{
+				id: "631DAB954C96AE71"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -84,6 +110,11 @@
 				type: "item"
 				item: "teststar:magic_furnace"
 			}]
+			rewards: [{
+				id: "51D72E03A553BE6E"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 5.0d
@@ -95,12 +126,19 @@
 				type: "item"
 				item: "minecraft:cobblestone"
 			}]
-			rewards: [{
-				id: "62E15B0E6A83EF3E"
-				type: "item"
-				item: "minecraft:cobblestone"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "62E15B0E6A83EF3E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "09242FF8AA93197D"
+					type: "item"
+					item: "kubejs:money"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -111,6 +149,11 @@
 				id: "3BE15A183F070589"
 				type: "item"
 				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "64A57D7F76A905D5"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -123,6 +166,11 @@
 				type: "item"
 				item: "minecraft:smooth_stone"
 			}]
+			rewards: [{
+				id: "1C0855B4E73C6C49"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: -1.0d
@@ -130,9 +178,14 @@
 			dependencies: ["7107BB24FE12CD74"]
 			id: "2E709EA25CB97712"
 			tasks: [{
-				id: "4624C624D72C16C6"
+				id: "08E85FBD4BFC8258"
 				type: "item"
-				item: "kubejs:sticks_with_vegetation"
+				item: "minecraft:stick"
+			}]
+			rewards: [{
+				id: "24B3B2DBC8389DE4"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -145,11 +198,18 @@
 				type: "item"
 				item: "kubejs:sticks_with_vegetation"
 			}]
-			rewards: [{
-				id: "678078DA2241866E"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			rewards: [
+				{
+					id: "678078DA2241866E"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "7E971B0CA970A340"
+					type: "item"
+					item: "kubejs:money"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -160,6 +220,11 @@
 				id: "1CF820E57DE7209A"
 				type: "item"
 				item: "minecraft:oak_planks"
+			}]
+			rewards: [{
+				id: "099A0BFE0EB9B540"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -172,6 +237,11 @@
 				type: "item"
 				item: "minecraft:crafting_table"
 			}]
+			rewards: [{
+				id: "01896D24AA393D17"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 3.0d
@@ -183,12 +253,19 @@
 				type: "item"
 				item: "minecraft:gravel"
 			}]
-			rewards: [{
-				id: "5C67DB2C1CBAFA6C"
-				type: "item"
-				item: "minecraft:gravel"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "5C67DB2C1CBAFA6C"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 32
+				}
+				{
+					id: "2DE15C1DDFDFFC90"
+					type: "item"
+					item: "kubejs:money"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -199,6 +276,11 @@
 				id: "3273A0CE149C1705"
 				type: "item"
 				item: "kubejs:stone_dust"
+			}]
+			rewards: [{
+				id: "438B92045415EEC0"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -225,6 +307,11 @@
 					type: "item"
 					item: "mekanism:basic_fluid_tank"
 				}
+				{
+					id: "21B3FF251597C598"
+					type: "item"
+					item: "kubejs:money"
+				}
 			]
 		}
 		{
@@ -234,10 +321,9 @@
 			dependencies: ["191D51F532C428EB"]
 			id: "0A00A64010852534"
 			tasks: [{
-				id: "78C254CC4F5CC0EA"
-				type: "questsadditions:structure"
-				name: "simple_washing_machine"
-				hasCustomPicture: false
+				id: "5438588C120440BC"
+				type: "checkmark"
+				title: "搭建：简易筛选机"
 			}]
 			rewards: [
 				{
@@ -251,6 +337,11 @@
 					type: "item"
 					item: "minecraft:gravel"
 					count: 64
+				}
+				{
+					id: "5592E791749F30C5"
+					type: "item"
+					item: "kubejs:money"
 				}
 			]
 		}
@@ -280,6 +371,11 @@
 					item: "teststar:simple_washing_machine"
 				}
 			]
+			rewards: [{
+				id: "6D46C55FB8639B63"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: -1.0d
@@ -292,6 +388,11 @@
 				item: "create:crushed_iron_ore"
 				count: 12L
 			}]
+			rewards: [{
+				id: "3BD9037A929E3B1D"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 1.0d
@@ -302,6 +403,11 @@
 				id: "1BD94D38AF5885AC"
 				type: "item"
 				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "4EE7AED6EB045275"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -314,6 +420,11 @@
 				type: "item"
 				item: "minecraft:clay_ball"
 			}]
+			rewards: [{
+				id: "2626F09B62FDF7E2"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 3.0d
@@ -324,6 +435,11 @@
 				id: "286B1C4A141BF608"
 				type: "item"
 				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "1C4BF13BEA85CFA0"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -336,6 +452,11 @@
 				type: "item"
 				item: "kubejs:stone_dust_block"
 			}]
+			rewards: [{
+				id: "0B5BDC06082C58F8"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 5.0d
@@ -346,6 +467,11 @@
 				id: "05DA293035B6ACD9"
 				type: "item"
 				item: "kubejs:stone_dust_ingot"
+			}]
+			rewards: [{
+				id: "652035DA684FBFDB"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -358,6 +484,11 @@
 				type: "item"
 				item: "minecraft:sandstone"
 			}]
+			rewards: [{
+				id: "5E38AB5474B3BF79"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			title: "合金窑"
@@ -369,21 +500,17 @@
 				"4BF7EF4D34EB60DB"
 			]
 			id: "3369F7FF86924FD8"
-			tasks: [
-				{
-					id: "055ADBF972EE6353"
-					type: "item"
-					item: "immersiveengineering:alloybrick"
-					count: 8L
-				}
-				{
-					id: "365957DB02D83A58"
-					type: "questsadditions:structure"
-					title: "搭建结构：合金窑"
-					name: "alloy_kiln"
-					hasCustomPicture: false
-				}
-			]
+			tasks: [{
+				id: "055ADBF972EE6353"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6F656B20FC95A1DE"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: -3.0d
@@ -393,6 +520,11 @@
 				id: "56AD7D3D5756DCF4"
 				type: "item"
 				item: "minecraft:warped_roots"
+			}]
+			rewards: [{
+				id: "790C2811B0F6E97E"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -405,6 +537,11 @@
 				type: "item"
 				item: "kubejs:plant_fibres"
 			}]
+			rewards: [{
+				id: "695B28DC6E98BECB"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: -1.0d
@@ -416,12 +553,19 @@
 				type: "item"
 				item: "minecraft:iron_ingot"
 			}]
-			rewards: [{
-				id: "2A4D3B180E9C780F"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "2A4D3B180E9C780F"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "640852E11E7A5B91"
+					type: "item"
+					item: "kubejs:money"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -432,6 +576,11 @@
 				id: "2EDDEBEC305BF07B"
 				type: "item"
 				item: "kubejs:hemp_rope"
+			}]
+			rewards: [{
+				id: "19B609AC6B992AA9"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -453,6 +602,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A698341D4269E0A"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 1.0d
@@ -463,6 +617,11 @@
 				id: "5B36A6945F7C31B3"
 				type: "item"
 				item: "ae2:silicon"
+			}]
+			rewards: [{
+				id: "29E57C8EBEFA39B6"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -475,6 +634,11 @@
 				type: "item"
 				item: "minecraft:andesite"
 			}]
+			rewards: [{
+				id: "7814608EAB2581D5"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: -3.0d
@@ -485,6 +649,11 @@
 				id: "098A1D6B48B12F55"
 				type: "item"
 				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "2A6C3E403621F762"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -497,6 +666,11 @@
 				type: "item"
 				item: "create:andesite_casing"
 			}]
+			rewards: [{
+				id: "0758E0C0B70BB19B"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 3.0d
@@ -508,12 +682,19 @@
 				type: "item"
 				item: "teststar:simple_substance_converter"
 			}]
-			rewards: [{
-				id: "0BB9EEF00F3EA9D8"
-				type: "item"
-				item: "kubejs:mixed_fuel"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "0BB9EEF00F3EA9D8"
+					type: "item"
+					item: "kubejs:mixed_fuel"
+					count: 16
+				}
+				{
+					id: "6CC4DD422EC6099E"
+					type: "item"
+					item: "kubejs:money"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -524,6 +705,11 @@
 				id: "469C49DA64360933"
 				type: "item"
 				item: "minecraft:oak_sapling"
+			}]
+			rewards: [{
+				id: "710ACE67DB965AE8"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -543,6 +729,11 @@
 						value: "minecraft:logs"
 					}
 				}
+			}]
+			rewards: [{
+				id: "576C0E252663F306"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -564,6 +755,24 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "5C8D7984E0BB86BC"
+					type: "item"
+					item: "kubejs:money"
+				}
+				{
+					id: "788D99C362F72DF7"
+					type: "item"
+					item: "botania:flower_bag"
+				}
+				{
+					id: "0FBEF1F3B1AF05ED"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -574,6 +783,11 @@
 				id: "038B6FE3D8FBE202"
 				type: "item"
 				item: "botania:white_petal"
+			}]
+			rewards: [{
+				id: "62D782F364E43AAD"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -586,6 +800,11 @@
 				type: "item"
 				item: "botania:apothecary_default"
 			}]
+			rewards: [{
+				id: "2829DD86BA0EBADF"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: -3.0d
@@ -596,6 +815,11 @@
 				id: "57299835230131BD"
 				type: "item"
 				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "6506A31E9F9D7F3B"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -608,6 +832,11 @@
 				type: "item"
 				item: "botania:endoflame"
 			}]
+			rewards: [{
+				id: "498FD7D36E2C302E"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 1.0d
@@ -618,6 +847,11 @@
 				id: "6C2AA6FDD1B9FB4A"
 				type: "item"
 				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "7C7275792C04DE0C"
+				type: "item"
+				item: "kubejs:money"
 			}]
 		}
 		{
@@ -630,6 +864,11 @@
 				type: "item"
 				item: "botania:mana_pool"
 			}]
+			rewards: [{
+				id: "7D4694ACB49CA8F7"
+				type: "item"
+				item: "kubejs:money"
+			}]
 		}
 		{
 			x: 5.0d
@@ -641,6 +880,20 @@
 				type: "item"
 				item: "minecraft:gold_ingot"
 			}]
+			rewards: [
+				{
+					id: "60C2F6D21301F73F"
+					type: "item"
+					item: "kubejs:money"
+				}
+				{
+					id: "5F8E981858FC1BEA"
+					type: "command"
+					title: "血量上限增加到20"
+					command: "/gamerule maxHealth 20"
+					player_command: false
+				}
+			]
 		}
 	]
 }

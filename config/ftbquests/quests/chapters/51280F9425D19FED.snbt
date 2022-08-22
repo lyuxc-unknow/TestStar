@@ -1,0 +1,26 @@
+{
+	id: "51280F9425D19FED"
+	group: ""
+	order_index: 3
+	filename: "51280F9425D19FED"
+	title: "科技时代"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -4.0d
+		y: -0.5d
+		id: "760DBFE182AD37AB"
+		tasks: [{
+			id: "582CAE805E8A46DA"
+			type: "item"
+			title: "Any #forge:ingots/steel"
+			item: {
+				id: "itemfilters:tag"
+				Count: 1b
+				tag: {
+					value: "forge:ingots/steel"
+				}
+			}
+		}]
+	}]
+}

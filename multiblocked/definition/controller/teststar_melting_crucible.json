@@ -1,0 +1,102 @@
+{
+  "catalyst": "{Count:1b,id:\"kubejs:mixed_fuel\"}",
+  "consumeCatalyst": true,
+  "location": "teststar:melting_crucible",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 24,
+        "y": 66,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 6,
+        "y": 66,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 133,
+        "y": 66,
+        "autoIO": true,
+        "tC": 200000
+      }
+    ],
+    "background": "multiblocked:textures/gui/crucible_gui.png"
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelLocation": "multiblocked:melting_crucible",
+    "type": "imodel"
+  },
+  "formedRenderer": {
+    "modelLocation": "multiblocked:melting_crucible_forming",
+    "type": "imodel"
+  },
+  "workingRenderer": {
+    "modelLocation": "multiblocked:melting_crucible_working",
+    "type": "imodel"
+  },
+  "properties": {
+    "isOpaque": false,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64
+  },
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "teststar:melting_crucible",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "crucible"
+}

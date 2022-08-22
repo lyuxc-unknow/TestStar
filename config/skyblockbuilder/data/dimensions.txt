@@ -1,6 +1,7 @@
 minecraft:overworld
 ae2:spatial_storage
+compactmachines:compact_world
 minecraft:the_end
+mythicbotany:alfheim
 minecraft:the_nether
 bloodmagic:dungeon
-compactmachines:compact_world

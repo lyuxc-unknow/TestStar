@@ -1,0 +1,37 @@
+{
+	id: "49F17F7949CFE725"
+	group: ""
+	order_index: 5
+	filename: "49F17F7949CFE725"
+	title: "隐藏"
+	disable_toast: true
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		disable_toast: true
+		x: 0.5d
+		y: 1.0d
+		id: "6FC534DCB46BD7EE"
+		tasks: [{
+			id: "65CB23264472D1AE"
+			type: "dimension"
+			dimension: "minecraft:overworld"
+		}]
+		rewards: [
+			{
+				id: "44396E4209C3E009"
+				type: "command"
+				auto: "enabled"
+				command: "/gamerule maxHealth 6"
+				player_command: false
+			}
+			{
+				id: "4604C823AF73C856"
+				type: "command"
+				command: "/gamerule keepInventory true"
+				player_command: false
+			}
+		]
+	}]
+}

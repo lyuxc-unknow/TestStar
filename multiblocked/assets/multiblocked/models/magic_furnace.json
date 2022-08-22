@@ -1,8 +1,9 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
 	"textures": {
-		"0": "multiblocked:purpur_dust_block",
-		"particle": "multiblocked:purpur_dust_block"
+		"0": "multiblocked:blocks/purpur_dust_block",
+		"particle": "multiblocked:blocks/purpur_dust_block"
 	},
 	"elements": [
 		{
@@ -17,11 +18,5 @@
 				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
 		}
-	],
-	"display": {
-		"gui": {
-			"rotation": [-45.04, -50.98, -82.93],
-			"scale": [0.55469, 0.55469, 0.55469]
-		}
-	}
+	]
 }

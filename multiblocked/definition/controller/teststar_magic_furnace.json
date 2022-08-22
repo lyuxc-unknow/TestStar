@@ -25,7 +25,7 @@
         "autoIO": false
       }
     ],
-    "background": "multiblocked:textures/magic_furnace_gui.png"
+    "background": "multiblocked:textures/gui/magic_furnace_gui.png"
   },
   "allowRotate": true,
   "showInJei": true,

@@ -1,9 +1,10 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "multiblocked:air_to_water_a",
-		"particle": "multiblocked:air_to_water_a"
+		"0": "multiblocked:blocks/air_to_water_a",
+		"particle": "multiblocked:blocks/air_to_water_a"
 	},
 	"elements": [
 		{

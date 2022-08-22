@@ -1,0 +1,151 @@
+{
+  "consumeCatalyst": false,
+  "location": "teststar:fan",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "create:encased_fan",
+      "meta": 2
+    },
+    "type": "blockstate"
+  },
+  "properties": {
+    "isOpaque": false,
+    "hasDynamicShape": false,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64,
+    "shape": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "BAB",
+        "BAB",
+        "BBB"
+      ],
+      [
+        "AAA",
+        "CAA",
+        "@DE",
+        "BBB"
+      ],
+      [
+        "AAA",
+        "BAB",
+        "BAB",
+        "BBB"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "minecraft:smooth_stone"
+          },
+          {
+            "id": "teststar:item_modular"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "teststar:fan",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "minecraft:stone_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "multiblocked:create_input"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ts_mod:hot_stone_dust_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "teststar:item_modular"
+          },
+          {
+            "id": "minecraft:smooth_stone"
+          }
+        ],
+        "type": "blocks"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ]
+    }
+  },
+  "recipeMap": "fans"
+}

@@ -1,0 +1,218 @@
+{
+	id: "2CAD2A6F55D917A2"
+	group: ""
+	order_index: 1
+	filename: "2CAD2A6F55D917A2"
+	title: "机械动力:渐入科技"
+	icon: "create:brass_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -0.5d
+			id: "4EFED536586F1DBD"
+			tasks: [{
+				id: "1D71DF7F1334C0A8"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: [
+				"4EFED536586F1DBD"
+				"2CA1A30197C43E6E"
+				"5A4546DD4159D078"
+			]
+			id: "794F939A3E3FE247"
+			tasks: [{
+				id: "564B4B331E9EF76D"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			id: "2CA1A30197C43E6E"
+			tasks: [{
+				id: "43C90FA43C396EA8"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			id: "5A4546DD4159D078"
+			tasks: [{
+				id: "07E1CEBB81AFDC4F"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["6851CE8E62A199AB"]
+			id: "558C88D4E75B23FD"
+			tasks: [{
+				id: "5760017CAF968766"
+				type: "item"
+				item: "teststar:melting_crucible"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			id: "6851CE8E62A199AB"
+			tasks: [{
+				id: "42ECF6EADB306E38"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["558C88D4E75B23FD"]
+			id: "65CB4A469951552C"
+			tasks: [{
+				id: "2C791199C99B123B"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["794F939A3E3FE247"]
+			id: "1E9EC6FA97154A09"
+			tasks: [{
+				id: "032389D1C7F7C1EE"
+				type: "item"
+				item: "teststar:fan"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["65CB4A469951552C"]
+			id: "2485E38C9C1BE759"
+			tasks: [{
+				id: "0A2E2BEF9B05DCB4"
+				type: "item"
+				item: "ts_mod:hot_stone_dust_block"
+			}]
+		}
+		{
+			title: "多方快结构：综合鼓风机"
+			icon: "teststar:fan"
+			x: 3.0d
+			y: -1.5d
+			dependencies: [
+				"2485E38C9C1BE759"
+				"1E9EC6FA97154A09"
+			]
+			id: "11D86EDCE3F0EE14"
+			tasks: [
+				{
+					id: "6E74CF5471DFB64F"
+					type: "item"
+					item: "teststar:fan"
+				}
+				{
+					id: "4A8B325F7909A593"
+					type: "item"
+					item: "minecraft:smooth_stone"
+					count: 15L
+				}
+				{
+					id: "5F1D4B8616E29443"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 17L
+				}
+				{
+					id: "4E8DCBAF49309B38"
+					type: "item"
+					item: "ts_mod:hot_stone_dust_block"
+				}
+				{
+					id: "0C8ACB1780BA8827"
+					type: "item"
+					item: "teststar:item_modular"
+				}
+				{
+					id: "5211DC63855FF217"
+					type: "item"
+					item: "multiblocked:create_input"
+				}
+			]
+			rewards: [{
+				id: "477070B0B2E162DA"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 8
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["11D86EDCE3F0EE14"]
+			id: "5124CCE8092369EA"
+			tasks: [{
+				id: "11A0C606DB0D513E"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["11D86EDCE3F0EE14"]
+			id: "145A884AE55D4FE7"
+			tasks: [{
+				id: "19721B954DF75086"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["145A884AE55D4FE7"]
+			id: "18F77F0C0ADBA823"
+			tasks: [{
+				id: "029D0866DD2203E8"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: [
+				"5124CCE8092369EA"
+				"18F77F0C0ADBA823"
+			]
+			id: "0CCE8BFB44E5973E"
+			tasks: [{
+				id: "59479A0DE6FEDEAA"
+				type: "item"
+				title: "Any #forge:ingots/steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+		}
+	]
+}

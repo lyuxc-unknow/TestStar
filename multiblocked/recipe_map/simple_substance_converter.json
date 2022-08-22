@@ -247,6 +247,48 @@
       }
     },
     {
+      "uid": "a245a642-55d3-4820-9680-450aea70cfb4",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:mixed_fuel"
+              }
+            },
+            "chance": 0.5
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 5,
+              "ingredient": {
+                "item": "minecraft:warped_roots"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:vine"
+              }
+            },
+            "chance": 0.1
+          }
+        ]
+      }
+    },
+    {
       "uid": "5c66a0f4-5209-4bbc-a5f9-6a6141dc3048",
       "duration": 600,
       "inputs": {
@@ -280,6 +322,172 @@
               }
             },
             "chance": 0.25
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:yellow_iron_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "dc7cb990-db58-4464-b685-093e1d08b99d",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:mixed_fuel"
+              }
+            },
+            "chance": 0.5
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 16,
+              "ingredient": {
+                "item": "kubejs:plant_fibres"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:wheat_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:pumpkin_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:melon_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:beetroot_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:tea_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:barley_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:corn_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:onion_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:rice_seeds"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:tea_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:green_bean_seeds"
+              }
+            },
+            "chance": 0.1
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:peanut_seeds"
+              }
+            },
+            "chance": 0.1
           }
         ]
       }

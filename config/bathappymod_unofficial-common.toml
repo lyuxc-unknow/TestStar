@@ -1,0 +1,7 @@
+
+#ban mods list
+[Blacklist]
+	List = ["torcherino", "xijun", "bacteria"]
+	tip = "你的MC看起来崩溃了,是因为:"
+	"Whether to display the mod ID?" = true
+

@@ -1,0 +1,66 @@
+{
+	id: "58626129EFA76BA0"
+	group: ""
+	order_index: 2
+	filename: "58626129EFA76BA0"
+	title: "植物学"
+	icon: "botania:pure_daisy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "0702FF6D23974696"
+			tasks: [{
+				id: "3341C242D93D846C"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["0702FF6D23974696"]
+			id: "7343E7DF9D4EEAC2"
+			tasks: [{
+				id: "13316355B44010A7"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["0702FF6D23974696"]
+			id: "3682CE323EEEE089"
+			tasks: [{
+				id: "128BD8A321E75863"
+				type: "item"
+				item: "botania:livingwood"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["7343E7DF9D4EEAC2"]
+			id: "12B1837BD4793632"
+			tasks: [{
+				id: "3F1AFFFF2CD66D4C"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["3682CE323EEEE089"]
+			id: "618C3104DB4B8A3C"
+			tasks: [{
+				id: "1FEB4668C4D4E73E"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+	]
+}

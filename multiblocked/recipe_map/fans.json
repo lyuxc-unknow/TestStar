@@ -1,0 +1,44 @@
+{
+  "name": "fans",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "fbf2023a-34a3-4df6-94ed-82f4dae735e3",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "create_stress": [
+          {
+            "content": 64.0,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

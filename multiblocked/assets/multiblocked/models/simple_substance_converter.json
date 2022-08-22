@@ -1,8 +1,9 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "multiblocked:simple_substance_converter_tex"
+		"1": "multiblocked:blocks/simple_substance_converter_tex"
 	},
 	"elements": [
 		{

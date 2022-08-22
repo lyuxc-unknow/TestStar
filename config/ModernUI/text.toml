@@ -9,11 +9,11 @@
 	fixedResolution = false
 	#Control base font size, in GUI scaled pixels. The default and vanilla value is 8.
 	#For bitmap fonts, 8 represents a glyph size of 8x or 16x if fixed resolution.
-	#Range: 6 ~ 10
+	#Range: 6.0 ~ 10.0
 	baseFontSize = 8
 	#Control vertical baseline for vanilla text layout, in GUI scaled pixels.
 	#For smaller font, 6 is recommended. The default value is 7.
-	#Range: 4 ~ 10
+	#Range: 4.0 ~ 10.0
 	baselineShift = 7
 	#Super sampling can make the text more sharper with large font size or in the 3D world.
 	#But perhaps it makes the path edge too blurry and difficult to read.
@@ -36,4 +36,10 @@
 	bitmapReplacement = false
 	#Allow to use Slack or Discord shortcodes to replace Emoji character sequences in chat.
 	emojiShortcodes = true
+	#Control the text shadow offset for vanilla text rendering, in GUI scaled pixels.
+	#Range: 0.20000000298023224 ~ 4.0
+	shadowOffset = 0.8
+	#Control the text outline offset for vanilla text rendering, in GUI scaled pixels.
+	#Range: 0.20000000298023224 ~ 4.0
+	outlineOffset = 0.5
 

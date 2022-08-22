@@ -1,9 +1,10 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
 	"textures": {
-		"0": "multiblocked:contral_machine_a",
-		"1": "multiblocked:contral_machine_b",
-		"particle": "multiblocked:contral_machine_a"
+		"0": "multiblocked:blocks/contral_machine_a",
+		"1": "multiblocked:blocks/contral_machine_b",
+		"particle": "multiblocked:blocks/contral_machine_a"
 	},
 	"elements": [
 		{

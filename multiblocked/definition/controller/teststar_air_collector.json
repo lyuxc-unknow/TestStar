@@ -12,7 +12,7 @@
         "tC": 20000
       }
     ],
-    "background": "multiblocked:textures/water_machine_gui.png"
+    "background": "multiblocked:textures/gui/water_machine_gui.png"
   },
   "allowRotate": true,
   "showInJei": true,
@@ -24,7 +24,6 @@
     "isOpaque": true,
     "destroyTime": 1.5,
     "explosionResistance": 6.0,
-    "harvestLevel": 1,
     "lightEmissive": 0,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,

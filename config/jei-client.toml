@@ -29,7 +29,7 @@
 	ModNameSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tooltips (prefix: #)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TooltipSearchMode = "ENABLED"
+	TooltipSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	TagSearchMode = "REQUIRE_PREFIX"
@@ -43,7 +43,7 @@
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceLocationSearchMode = "DISABLED"
 	#Search advanced tooltips (visible with F3+H)
-	SearchAdvancedTooltips = false
+	SearchAdvancedTooltips = true
 
 [modname]
 	#Formatting for mod name tooltip

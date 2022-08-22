@@ -2,7 +2,7 @@
   "consumeCatalyst": false,
   "location": "teststar:simple_washing_machine",
   "traits": {
-    "background": "multiblocked:textures/simple_washing_machine.png",
+    "background": "multiblocked:textures/gui/simple_washing_machine.png",
     "item": [
       {
         "cIO": 0,

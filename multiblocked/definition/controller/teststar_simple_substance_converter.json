@@ -2,7 +2,7 @@
   "consumeCatalyst": false,
   "location": "teststar:simple_substance_converter",
   "traits": {
-    "background": "multiblocked:textures/item_modualr_gui.png",
+    "background": "multiblocked:textures/gui/item_modualr_gui.png",
     "item": [
       {
         "cIO": 0,

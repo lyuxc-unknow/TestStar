@@ -4,13 +4,13 @@
 
 	[Settings."FPS Counter"]
 		"FPS Counter Distance" = 12
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
 
 	[Settings.Misc]
-		"Render Fog" = true
+		"Render Fog" = false
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
 		"Use Borderless Fullscreen" = "FULLSCREEN"
-		"Cloud Height [Raw, Default 256]" = 256
+		"Cloud Height [Raw, Default 256]" = 364
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
 		"Hide JEI Until Searching" = false
 

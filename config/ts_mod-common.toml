@@ -1,8 +1,18 @@
 
-#Mod pack sittings
+#Modpack sittings
 [Config]
-	#Disable unlimited water sources
+	"Enable hard mode" = false
+	"Change chat mode?" = true
+	"Whether to display the time on the screen?" = false
 	#Range: 0 ~ 2
-	"this is a name" = 0
-	"hard mode" = false
+	"Disable unlimited water sources" = 0
+	#Range: 0 ~ 2
+	"Is it possible to sleep all the time?" = 0
+	#Range: > 0
+	"X-axis position at render time" = 0
+	#Range: > 0
+	"Y-axis position at render time" = 0
+	#Range: > -2147483648
+	"Font color used for render time" = -11616781
+	"set path to save export ftbquests files" = "kubejs/assets/ftbquests/lang/"
 

@@ -1,0 +1,123 @@
+{
+	id: "335B8CAD50D5BB52"
+	group: ""
+	order_index: 4
+	filename: "335B8CAD50D5BB52"
+	title: "商店"
+	icon: {
+		id: "pneumaticcraft:collector_drone"
+		Count: 1b
+		tag: {
+			"pneumaticcraft:air": 120000
+		}
+	}
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "沙砾"
+			icon: "minecraft:gravel"
+			x: -3.0d
+			y: -1.5d
+			subtitle: "提交货币后，奖励自动领取，请确保背包有足够的空间，此任务五秒后自动重置"
+			dependencies: ["2205A016D16B3FB9"]
+			id: "12F0241133049F0C"
+			tasks: [{
+				id: "503613D517C2D64B"
+				type: "item"
+				item: "kubejs:money"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "30031577EE5D660F"
+					type: "item"
+					title: "沙砾[奖励自动领取到背包]"
+					team_reward: true
+					auto: "enabled"
+					item: "minecraft:gravel"
+					count: 16
+				}
+				{
+					id: "579177BEFE010474"
+					type: "custom"
+					title: "重置标记~五秒"
+					icon: "kubejs:reset_flag"
+					tags: ["reset"]
+					team_reward: true
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "花肥"
+			icon: "botania:fertilizer"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "提交货币后，奖励自动领取，请确保背包有足够的空间，此任务一分钟后自动重置"
+			dependencies: ["023EDDBA9245EF50"]
+			id: "19BCC9397A3483E7"
+			tasks: [{
+				id: "4D434BEFB7433531"
+				type: "item"
+				item: "kubejs:money"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "57C59489ED73FF2F"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "botania:fertilizer"
+					count: 8
+				}
+				{
+					id: "7FA2BD14935C2983"
+					type: "custom"
+					title: "重置标记~一分钟"
+					icon: "kubejs:reset_flag"
+					tags: ["reset_minute"]
+					team_reward: true
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "骨粉"
+			icon: "minecraft:bone_meal"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "提交货币后，奖励自动领取，请确保背包有足够的空间，此任务五秒后自动重置"
+			id: "1FF080088CE399A4"
+			tasks: [{
+				id: "27EF73D8980C0F9E"
+				type: "item"
+				item: "kubejs:money"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1DB101C79A5E5527"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+				{
+					id: "356DBA6C01408A9A"
+					type: "custom"
+					title: "重置标记~五秒"
+					icon: "kubejs:reset_flag"
+					tags: ["reset"]
+					team_reward: true
+					auto: "enabled"
+				}
+			]
+		}
+	]
+}

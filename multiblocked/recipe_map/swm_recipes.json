@@ -92,6 +92,107 @@
           }
         ]
       }
+    },
+    {
+      "uid": "27fd31f8-5208-42e2-aa73-caa65624b9f6",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:sand"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "fluid": [
+          {
+            "content": {
+              "fluid": "minecraft:water",
+              "amount": 1000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "minecraft:clay_ball"
+              }
+            },
+            "chance": 0.2
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ae2:sky_dust"
+              }
+            },
+            "chance": 0.15
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:glowstone_dust"
+              }
+            },
+            "chance": 0.25
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:redstone"
+              }
+            },
+            "chance": 0.375
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "electrodynamics:dustniter"
+              }
+            },
+            "chance": 0.75
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:gunpowder"
+              }
+            },
+            "chance": 0.35
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "thermal:blitz_powder"
+              }
+            },
+            "chance": 0.012
+          }
+        ]
+      }
     }
   ]
 }

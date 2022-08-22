@@ -1,8 +1,9 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
 	"textures": {
-		"0": "multiblocked:io_modular_a",
-		"particle": "multiblocked:io_modular_a"
+		"0": "multiblocked:blocks/io_modular_a",
+		"particle": "multiblocked:blocks/io_modular_a"
 	},
 	"elements": [
 		{

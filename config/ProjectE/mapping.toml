@@ -121,6 +121,10 @@
 		#ProjectE-Integration Recipe Mapper for Immersive Engineering Alloy Mapper. Required Mods: [immersiveengineering]
 		enabled = true
 
+	[CraftingMapper.CreateHauntingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Haunting Mapper. Required Mods: [create]
+		enabled = true
+
 	[CraftingMapper.CreateMechanicalCraftingMapper]
 		#ProjectE-Integration Recipe Mapper for Create Mechanical Crafting Mapper. Required Mods: [create]
 		enabled = true
@@ -161,6 +165,10 @@
 		#ProjectE-Integration Recipe Mapper for Somting Thermal Sawmill Mapper. Required Mods: [thermal]
 		enabled = true
 
+	[CraftingMapper.CreateItemApplicationMapper]
+		#ProjectE-Integration Recipe Mapper for Create Item Application Mapper. Required Mods: [create]
+		enabled = true
+
 	[CraftingMapper.PneumaticCraftRefineryMapper]
 		#ProjectE-Integration Recipe Mapper for Pneumatic Craft Refinery Mapper. Required Mods: [pneumaticcraft]
 		enabled = true
@@ -175,6 +183,10 @@
 
 	[CraftingMapper.PneumaticCraftAmadronOfferMapper]
 		#ProjectE-Integration Recipe Mapper for Pneumatic Craft Amadron Offer Mapper. Required Mods: [pneumaticcraft]
+		enabled = true
+
+	[CraftingMapper.CreateSequencedAssemblyMapper]
+		#ProjectE-Integration Recipe Mapper for Create Sequenced Assembly Mapper. Required Mods: [create]
 		enabled = true
 
 	[CraftingMapper.MekElectrolysis]
